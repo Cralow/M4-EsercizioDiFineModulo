@@ -463,7 +463,7 @@ RectTransform:
   - {fileID: 1400930565}
   - {fileID: 821733681}
   - {fileID: 762185468}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 692206013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -837,6 +837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &226959085
@@ -1538,6 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &381106868
@@ -1915,6 +1917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &470432500
@@ -2139,6 +2142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &526977822
@@ -2666,6 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &608693665
@@ -3438,17 +3443,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c09a1d5acbbd0ae4898be4b38ba97830,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -85.489914
+      value: -73.489914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c09a1d5acbbd0ae4898be4b38ba97830,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 38.954266
+      value: 10.954266
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c09a1d5acbbd0ae4898be4b38ba97830,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -79.004074
+      value: -31.004074
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c09a1d5acbbd0ae4898be4b38ba97830,
         type: 3}
@@ -3828,6 +3833,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c09a1d5acbbd0ae4898be4b38ba97830,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 173739950}
     - targetCorrespondingSourceObject: {fileID: -1480070881545233990, guid: c09a1d5acbbd0ae4898be4b38ba97830,
         type: 3}
       insertIndex: -1
@@ -4502,6 +4511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &820874163
@@ -7015,6 +7025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1247508662
@@ -7994,6 +8005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1406574621
@@ -8321,6 +8333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1454450889
@@ -8781,6 +8794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1524755847
@@ -9286,6 +9300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1598163288
@@ -9811,6 +9826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!23 &1672728044
@@ -10514,6 +10530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494d6cc859d172847b2ee87fa5f8d94f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTag: Player
   resetDuration: 2
   resetDelay: 1
 --- !u!4 &1759611901 stripped
@@ -29584,7 +29601,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1318341424}
   - {fileID: 583252479}
-  - {fileID: 173739950}
   - {fileID: 692206011}
   - {fileID: 430914477796181054}
   - {fileID: 1253468771}
